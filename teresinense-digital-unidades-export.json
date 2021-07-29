@@ -1,0 +1,887 @@
+{
+  "-LTdwZ6rAo4zBXVyNjZz" : {
+    "address" : "Rua Boa Esperança s/n",
+    "assistantId" : "",
+    "campanhas" : [ null, "-LuCrehmkYKby8Htf9Q0", "-LuCrz275kw9-5UckaQq", "-LvQ8h8MikrjF6Z6ztwY" ],
+    "id" : "-LTdwZ6rAo4zBXVyNjZz",
+    "lat" : "-5.032312",
+    "long" : "-42.819597",
+    "name" : "UBS Adelino Matos",
+    "phone" : "3215-9189",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwZV4k58NTq2-PF5-" : {
+    "address" : "Rua Alto do Piauí, 7013 - Vila Alto da Ressurreição",
+    "assistantId" : "",
+    "id" : "-LTdwZV4k58NTq2-PF5-",
+    "lat" : "-5.0885019",
+    "long" : "-42.736658",
+    "name" : "UBS Alto da Ressurreição",
+    "phone" : "3215-9218",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwZuqiJN_ropBqNml" : {
+    "address" : "Rua Jandara, S/N - Parque Anita Ferraz",
+    "assistantId" : "",
+    "id" : "-LTdwZuqiJN_ropBqNml",
+    "lat" : "-5.009899",
+    "long" : "-42.775015",
+    "name" : "UBS Anita Ferraz",
+    "phone" : "3215-9220",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdw_IFuDbXlG1ZTQnI" : {
+    "address" : "Povoado Bela Vista",
+    "assistantId" : "",
+    "id" : "-LTdw_IFuDbXlG1ZTQnI",
+    "lat" : "-4.929206",
+    "long" : "-42.855681",
+    "name" : "UBS Bela Vista (Rural)",
+    "phone" : "3211-1498",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdw_jaDMxkFPGVqn5l" : {
+    "address" : "Avenida Principal, S/N",
+    "assistantId" : "",
+    "id" : "-LTdw_jaDMxkFPGVqn5l",
+    "lat" : "-5.135187",
+    "long" : "-42.776461",
+    "name" : "UBS Bela Vista",
+    "phone" : "3215-9158",
+    "zone" : "Sul"
+  },
+  "-LTdwaC4WvYXNLM1oKpT" : {
+    "address" : "Povoado Boquinha",
+    "assistantId" : "",
+    "campanhas" : [ "-LuI1mvi1vaIBu-NF1_7" ],
+    "id" : "-LTdwaC4WvYXNLM1oKpT",
+    "lat" : "-5.252455",
+    "long" : "-42.669727",
+    "name" : "UBS Boquinha",
+    "phone" : "3222-1255",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwadLZPrUX6C-6YwO" : {
+    "address" : "Rua São Valetin, 7720 - Esplanada",
+    "assistantId" : "",
+    "id" : "-LTdwadLZPrUX6C-6YwO",
+    "lat" : "-5.194024",
+    "long" : "-42.763222",
+    "name" : "UBS Bruno Rafael Rodrigues de Sousa (Esplanada)",
+    "phone" : "3227-9150",
+    "zone" : "Sul"
+  },
+  "-LTdwb4Rtk_X-xCNzOKK" : {
+    "address" : "Rua Manoel Teodoro, 4885",
+    "assistantId" : "",
+    "campanhas" : [ "-LuI1mvi1vaIBu-NF1_7" ],
+    "id" : "-LTdwb4Rtk_X-xCNzOKK",
+    "lat" : "-5.041748",
+    "long" : "-42.813633",
+    "name" : "UBS Buenos Aires",
+    "phone" : "3216-6271",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwbUubAXDs6KfgL4Q" : {
+    "address" : "Povoado Cacimba Velha",
+    "assistantId" : "",
+    "id" : "-LTdwbUubAXDs6KfgL4Q",
+    "lat" : "-4.956331",
+    "long" : "-42.708332",
+    "name" : "UBS Cacimba Velha",
+    "phone" : "3215-9223",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwbv3UnqbxziS-P8Q" : {
+    "address" : "Av Jacob Almendra, 620",
+    "assistantId" : "",
+    "id" : "-LTdwbv3UnqbxziS-P8Q",
+    "lat" : "-5.075696",
+    "long" : "-42.805498",
+    "name" : "UBS Cecy Fortes",
+    "phone" : "3215-9122",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwcJsUGpOkCMVt8n3" : {
+    "address" : "Povoado Chapadinha - BR-316 - km 23",
+    "assistantId" : "",
+    "id" : "-LTdwcJsUGpOkCMVt8n3",
+    "lat" : "-5.300421",
+    "long" : "-42.710504",
+    "name" : "UBS Chapadinha Sul",
+    "phone" : "",
+    "zone" : "Sul"
+  },
+  "-LTdwcjRdORCOdeGtxCp" : {
+    "address" : "Rua Pedra Branca",
+    "assistantId" : "",
+    "id" : "-LTdwcjRdORCOdeGtxCp",
+    "lat" : "-5.013223",
+    "long" : "-42.773041",
+    "name" : "UBS Cidade Jardim",
+    "phone" : "Vazio",
+    "zone" : "Norte"
+  },
+  "-LTdwd8U3hgPMCUvBVu9" : {
+    "address" : "Rua Dep. Sebastião Leal",
+    "assistantId" : "",
+    "campanhas" : [ "-LuI1mvi1vaIBu-NF1_7" ],
+    "id" : "-LTdwd8U3hgPMCUvBVu9",
+    "lat" : "-5.04487",
+    "long" : "-42.761275",
+    "name" : "UBS Chico Ramos (Satélite)",
+    "phone" : "",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwdYmBx0bZLm0axbD" : {
+    "address" : "Povoado Coroatá",
+    "assistantId" : "",
+    "id" : "-LTdwdYmBx0bZLm0axbD",
+    "lat" : "-4.938979",
+    "long" : "-42.635063",
+    "name" : "UBS Coroatá",
+    "phone" : "3235-6686",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwdyITheF-qRGDMsb" : {
+    "address" : "Bairro: Cristo Rei",
+    "assistantId" : "",
+    "campanhas" : [ "-LuI1mvi1vaIBu-NF1_7" ],
+    "id" : "-LTdwdyITheF-qRGDMsb",
+    "lat" : "-5.0997758",
+    "long" : "-42.7852225",
+    "name" : "UBS Cristo Rei",
+    "phone" : "",
+    "zone" : "Sul"
+  },
+  "-LTdwePai8F6z_CuPN5d" : {
+    "address" : "Rua João Siqueira de Araújo, 3772 - Parque Dagma Mazza",
+    "assistantId" : "",
+    "id" : "-LTdwePai8F6z_CuPN5d",
+    "lat" : "-5.158796",
+    "long" : "-42.764745",
+    "name" : "UBS Dagma Mazza",
+    "phone" : "3215-9240",
+    "zone" : "Sul"
+  },
+  "-LTdweqXaRC9TzyECTqh" : {
+    "address" : "Rua Tenente Luiz Simplício, S/N",
+    "assistantId" : "",
+    "id" : "-LTdweqXaRC9TzyECTqh",
+    "lat" : "-5.048071",
+    "long" : "-42.810966",
+    "name" : "UBS Dep. Francisca Trindade - Água Mineral",
+    "phone" : "3215-9173",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwfG1Z0GwT2FmuTfr" : {
+    "address" : "Rua B, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwfG1Z0GwT2FmuTfr",
+    "lat" : "-5.175544",
+    "long" : "-42.790243",
+    "name" : "UBS Dr. Francílio Almeida (Angelim)",
+    "phone" : "3215-9157 / 3215-1112",
+    "zone" : "Sul"
+  },
+  "-LTdwfftQejqZM1CGTyT" : {
+    "address" : "Povoado Taboca do Pau Ferrado",
+    "assistantId" : "",
+    "id" : "-LTdwfftQejqZM1CGTyT",
+    "lat" : "-5.0881301",
+    "long" : "-42.6665865",
+    "name" : "UBS Dr. Luiz Gonzaga Pires (Taboca do Pau Ferrado)",
+    "phone" : "",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwg8kHi2s5X1Otia2" : {
+    "address" : "Rua Acesita, S/N - Alto Bonito",
+    "assistantId" : "",
+    "id" : "-LTdwg8kHi2s5X1Otia2",
+    "lat" : "-5.162135",
+    "long" : "-42.781624",
+    "name" : "UBS Dr. José Arimateia dos Santos",
+    "phone" : "3227-0900",
+    "zone" : "Sul"
+  },
+  "-LTdwgZuyDU7g97QOHMy" : {
+    "address" : "Quadra Central, S/N - Res. Mario Covas",
+    "assistantId" : "",
+    "id" : "-LTdwgZuyDU7g97QOHMy",
+    "lat" : "-5.172321",
+    "long" : "-42.773267",
+    "name" : "UBS Dep. Guilerme Xavier Oliveira Neto - Mario Covas",
+    "phone" : "3219-5524",
+    "zone" : "Sul"
+  },
+  "-LTdwh-Njj6UjaWgZDlG" : {
+    "address" : "Povoado Soinho",
+    "assistantId" : "",
+    "id" : "-LTdwh-Njj6UjaWgZDlG",
+    "lat" : "-4.999116",
+    "long" : "-42.733793",
+    "name" : "UBS Dep. Alberto Monteiro (Soinho)",
+    "phone" : "3237-0688",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwhWvnm1hMijgRr8r" : {
+    "address" : "Quadra 07, Lote: 01 - Res. Deus Quer",
+    "assistantId" : "",
+    "id" : "-LTdwhWvnm1hMijgRr8r",
+    "lat" : "-5.12089",
+    "long" : "-42.703742",
+    "name" : "UBS Deus Quer",
+    "phone" : "3235-9262",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwhxgLj0Gjxq_n9FE" : {
+    "address" : "Quadra 77, Casa 12, Conj. Dirceu Arcoverde I",
+    "assistantId" : "",
+    "id" : "-LTdwhxgLj0Gjxq_n9FE",
+    "lat" : "-5.100437",
+    "long" : "-42.754795",
+    "name" : "UBS Dirceu I",
+    "phone" : "3236-8883",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwiN8n4J1V0CzMtL5" : {
+    "address" : "Povoado Dois Irmãos",
+    "assistantId" : "",
+    "id" : "-LTdwiN8n4J1V0CzMtL5",
+    "lat" : "-4.917793",
+    "long" : "-42.783571",
+    "name" : "UBS Dois Irmãos",
+    "phone" : "3215-7927",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwin1ifnF7yKVkr_g" : {
+    "address" : "Rua Mario Augusto Freitas, 1469",
+    "assistantId" : "",
+    "id" : "-LTdwin1ifnF7yKVkr_g",
+    "lat" : "-5.0367848",
+    "long" : "-42.8277896",
+    "name" : "UBS Dr. Antônio Benício Freire - Poty Velho",
+    "phone" : "3215-9170",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwjDAjTaksiL25GIk" : {
+    "address" : "Rua Jesus da Cunha Araújo, 4859",
+    "assistantId" : "",
+    "id" : "-LTdwjDAjTaksiL25GIk",
+    "lat" : "-5.070681",
+    "long" : "-42.7588162",
+    "name" : "UBS Dr. Américo de Melo Castelo Branco - Santa Isabel",
+    "phone" : "3232-1500",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwjeo_J43OUp5z_GO" : {
+    "address" : "Rua Rita de Cássia, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwjeo_J43OUp5z_GO",
+    "lat" : "-5.15806",
+    "long" : "-42.772954",
+    "name" : "UBS Dr. Augusto Castro - KM 7",
+    "phone" : "3215-9156",
+    "zone" : "Sul"
+  },
+  "-LTdwk7H-bKJmGOgrvaY" : {
+    "address" : "Rua Anísio Pires, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwk7H-bKJmGOgrvaY",
+    "lat" : "-5.053983",
+    "long" : "-42.830109",
+    "name" : "UBS Dr. Evaldo Carvalho - Nova Brasília",
+    "phone" : "3215-4658",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwkXck08rh1KoiGX4" : {
+    "address" : "Povoado Santa Teresa",
+    "assistantId" : "",
+    "id" : "-LTdwkXck08rh1KoiGX4",
+    "lat" : "-4.98563",
+    "long" : "-42.641258",
+    "name" : "UBS Dr. Dirceu Arcoverde (Santa Teresa)",
+    "phone" : "3215-9212",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwkyOOYNOA2Nm2axZ" : {
+    "address" : "Conj. Direcu Arcoverde II,",
+    "assistantId" : "",
+    "id" : "-LTdwkyOOYNOA2Nm2axZ",
+    "lat" : "-5.109229",
+    "long" : "-42.758967",
+    "name" : "UBS Dirceu II",
+    "phone" : "",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwlTDEmrPSHyReZGF" : {
+    "address" : "Praça do Centro de Produção S/N",
+    "assistantId" : "",
+    "id" : "-LTdwlTDEmrPSHyReZGF",
+    "lat" : "-5.148055",
+    "long" : "-42.781727",
+    "name" : "UBS Dr. Felipe Eulálio de Pádua - Promorar",
+    "phone" : "3220-3188",
+    "zone" : "Sul"
+  },
+  "-LTdwlu1HJ0EM2wbbmla" : {
+    "address" : "Rua Ministro Pedro Borges, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwlu1HJ0EM2wbbmla",
+    "lat" : "-5.122677",
+    "long" : "-42.805491",
+    "name" : "UBS Dr. Francisco Soares Filho (São Pedro)",
+    "phone" : "3215-9194",
+    "zone" : "Sul"
+  },
+  "-LTdwmJgGqtzNVgZm5XJ" : {
+    "address" : "Rua Tio Bentes, S/N - Parque Universitário",
+    "assistantId" : "",
+    "id" : "-LTdwmJgGqtzNVgZm5XJ",
+    "lat" : "-5.054825",
+    "long" : "-42.766621",
+    "name" : "UBS Dr. Félix Francisco Pereira",
+    "phone" : "3234-5993",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwmrso5FA15xqZrry" : {
+    "address" : "Avenida Principal, 6133 - Usina Santana",
+    "assistantId" : "",
+    "id" : "-LTdwmrso5FA15xqZrry",
+    "lat" : "-5.161686",
+    "long" : "-42.688781",
+    "name" : "UBS Dr. Gilmar Santana (Usina Santana)",
+    "phone" : "3235-9696",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwnKpqbuO3Xyrh-MI" : {
+    "address" : "Povoado Santa Luz",
+    "assistantId" : "",
+    "id" : "-LTdwnKpqbuO3Xyrh-MI",
+    "lat" : "-4.928305",
+    "long" : "-42.766551",
+    "name" : "UBS Dr. Guiomar Carvalho (Santa Luz)",
+    "phone" : "3215-7873",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwnkEsDn2ZmOXS0H-" : {
+    "address" : "Rua Projetada, S/N - Res. Zequinha Freire",
+    "assistantId" : "",
+    "id" : "-LTdwnkEsDn2ZmOXS0H-",
+    "lat" : "-5.030422",
+    "long" : "-42.739637",
+    "name" : "UBS Dr. Henrique Melo Castelo Branco (Vale do Gavião)",
+    "phone" : "3231-5564",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwoB9r6EfQMTwKVz5" : {
+    "address" : "Rua Dr. João Virgílio, 1414",
+    "assistantId" : "",
+    "id" : "-LTdwoB9r6EfQMTwKVz5",
+    "lat" : "-5.1046",
+    "long" : "-42.808119",
+    "name" : "UBS Dr. José Wilson Batista - Vermelha",
+    "phone" : "3215-7755",
+    "zone" : "Sul"
+  },
+  "-LTdwoawlRogqhpQZBUe" : {
+    "address" : "Povoado Cerâmica Cil",
+    "assistantId" : "",
+    "id" : "-LTdwoawlRogqhpQZBUe",
+    "lat" : "-5.27715",
+    "long" : "-42.7996",
+    "name" : "UBS Dr. Leônidas - Cerâmica Cil",
+    "phone" : "3215-9199",
+    "zone" : "Sul"
+  },
+  "-LTdwp0GFDJU9umNOGtp" : {
+    "address" : "Rua Amadeus Paulo, 3556 - Vila Monte Alegre",
+    "assistantId" : "",
+    "id" : "-LTdwp0GFDJU9umNOGtp",
+    "lat" : "-5.0046567",
+    "long" : "-42.8229684",
+    "name" : "UBS Dr. Mariano Mendes",
+    "phone" : "3215-9172",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwpSrFcyXdmgztHel" : {
+    "address" : "Avenida Espigão, S/N - Parque Wall Ferraz",
+    "assistantId" : "",
+    "id" : "-LTdwpSrFcyXdmgztHel",
+    "lat" : "-4.986877",
+    "long" : "-42.83096",
+    "name" : "UBS Dr. Manoel Ayres  Parque Wall Ferraz",
+    "phone" : "3215-9195",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwpsuBMjwKNQ49QeQ" : {
+    "address" : "Avenida Jango, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwpsuBMjwKNQ49QeQ",
+    "lat" : "-5.012482",
+    "long" : "-42.795631",
+    "name" : "UBS Dr. Marcos Guedes - Nova Teresina",
+    "phone" : "3215-6746",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwqKC1Yff7uL2oMID" : {
+    "address" : "Rua Bernardo Borges dos Santos, 6598",
+    "assistantId" : "",
+    "id" : "-LTdwqKC1Yff7uL2oMID",
+    "lat" : "-5.081286",
+    "long" : "-42.740105",
+    "name" : "UBS Drª Ana Lúcia Salmito",
+    "phone" : "",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwqjTNI8t9fwmEWPB" : {
+    "address" : "Rua Riachuelo, 3024",
+    "assistantId" : "",
+    "id" : "-LTdwqjTNI8t9fwmEWPB",
+    "lat" : "-5.068031",
+    "long" : "-42.828642",
+    "name" : "UBS Drª Karla Ivana de Melo Campos - Matadouro",
+    "phone" : "3217-3941",
+    "zone" : "Norte"
+  },
+  "-LTdwr9F1ut5LZ7VQU49" : {
+    "address" : "Povoado Campestre",
+    "assistantId" : "",
+    "id" : "-LTdwr9F1ut5LZ7VQU49",
+    "lat" : "-4.893072",
+    "long" : "-42.747189",
+    "name" : "UBS Drª Lina Gayoso - Campestre Norte",
+    "phone" : "",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwr_wvQo3JU4-eVoe" : {
+    "address" : "Rua Rui Barbosa, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwr_wvQo3JU4-eVoe",
+    "lat" : "-5.047643",
+    "long" : "-42.831167",
+    "name" : "UBS Drª Maria Teresa de Melo Costa -  Mafrense",
+    "phone" : "3215-9171",
+    "zone" : "Norte"
+  },
+  "-LTdws-B9hIrHIBmkztE" : {
+    "address" : "Rua Promotor José Menton Filho, S/N  - Esquina com a Av. Nicanor Barreto",
+    "assistantId" : "",
+    "id" : "-LTdws-B9hIrHIBmkztE",
+    "lat" : "-5.037077",
+    "long" : "-42.729184",
+    "name" : "UBS Drª Onesima Nascimento (Santa Bárbara)",
+    "phone" : "3234-2069",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwsPYoIqlcFPFKzwe" : {
+    "address" : "Povoado Alegria",
+    "assistantId" : "",
+    "id" : "-LTdwsPYoIqlcFPFKzwe",
+    "lat" : "-5.1403106",
+    "long" : "-42.7312183",
+    "name" : "UBS Elon Constantino Aguiar",
+    "phone" : "3215-9159",
+    "zone" : "Sul"
+  },
+  "-LTdwspIixYdsjN6skL7" : {
+    "address" : "Zona Rural",
+    "assistantId" : "",
+    "id" : "-LTdwspIixYdsjN6skL7",
+    "lat" : "-5.058934",
+    "long" : "-42.682239",
+    "name" : "UBS Estaca Zero",
+    "phone" : "",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwtHcnfipjcBodnuC" : {
+    "address" : "Rua Zito Batista, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwtHcnfipjcBodnuC",
+    "lat" : "-5.104048",
+    "long" : "-42.79462",
+    "name" : "UBS Enf. Tania Maria Melo Rodrigues (Monte Castelo)",
+    "phone" : "3215-7792",
+    "zone" : "Sul"
+  },
+  "-LTdwtzzL5uVVFcrBAB_" : {
+    "address" : "Quadra 145, Res. Jacinta Andrade",
+    "assistantId" : "",
+    "id" : "-LTdwtzzL5uVVFcrBAB_",
+    "lat" : "-4.9932",
+    "long" : "-42.812878",
+    "name" : "UBS Fernando Gomes Correia Lima - Jacinta Andrade II",
+    "phone" : "3213-6407",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwuOtiIXMfXQL36Y3" : {
+    "address" : "Praça Prefeito João Mendes, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwuOtiIXMfXQL36Y3",
+    "lat" : "-5.137099",
+    "long" : "-42.801177",
+    "name" : "UBS Leônidas Antônio Deolindo (Saci)",
+    "phone" : "3215-9155",
+    "zone" : "Sul"
+  },
+  "-LTdwunYAXtj7o1aywqY" : {
+    "address" : "Povoado Boa Hora",
+    "assistantId" : "",
+    "id" : "-LTdwunYAXtj7o1aywqY",
+    "lat" : "-4.893606",
+    "long" : "-42.873934",
+    "name" : "UBS João Cirilo - Boa Hora",
+    "phone" : "3238-1017",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwvCJvOzWCM-vrBNB" : {
+    "address" : "Quadra 75, Casa: 05 - Residencial Jacinta Andrade I",
+    "assistantId" : "",
+    "id" : "-LTdwvCJvOzWCM-vrBNB",
+    "lat" : "-4.983269",
+    "long" : "-42.817101",
+    "name" : "UBS Jacinta Andrade I",
+    "phone" : "3213-3467",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwvdHgYouwzL0M6qN" : {
+    "address" : "Rua Eng. Ribamar Machado, S/N - Conj. Taquari",
+    "assistantId" : "",
+    "id" : "-LTdwvdHgYouwzL0M6qN",
+    "lat" : "-5.042461",
+    "long" : "-42.746157",
+    "name" : "UBS José Adail Fontes Fonseca (Taquari)",
+    "phone" : "3231-4879",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdww1uo-Nc2pskrz6x" : {
+    "address" : "Rua Lucídio Freitas, S/N",
+    "assistantId" : "",
+    "id" : "-LTdww1uo-Nc2pskrz6x",
+    "lat" : "-5.0828311",
+    "long" : "-42.8210845",
+    "name" : "UBS José Ribeiro de Carvalho - Cidade Verde",
+    "phone" : "3221-0342",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwwSDBVjp72wDohBv" : {
+    "address" : "Estrada de União",
+    "assistantId" : "",
+    "id" : "-LTdwwSDBVjp72wDohBv",
+    "lat" : "-5.004576",
+    "long" : "-42.760989",
+    "name" : "UBS Mama Mia",
+    "phone" : "3215-9226",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwwtmvhJBdwaPPn8x" : {
+    "address" : "Alamade Francisco Nogueira, S/N",
+    "assistantId" : "",
+    "id" : "-LTdwwtmvhJBdwaPPn8x",
+    "lat" : "-4.9954951",
+    "long" : "-42.8309677",
+    "name" : "UBS Mariano Gayoso Castelo Branco",
+    "phone" : "3225-3668",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdwxKhOpsCAce6cvGR" : {
+    "address" : "Rua Antônio Osterno, S/N - Parque Esperança",
+    "assistantId" : "",
+    "id" : "-LTdwxKhOpsCAce6cvGR",
+    "lat" : "-5.12047",
+    "long" : "-42.755046",
+    "name" : "UBS Padre Mario Rocchi",
+    "phone" : "3235-4599",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwxjhw0N-IWWGuF-O" : {
+    "address" : "Rua Vereador Emílio Omatti, 2010 - Vila Nossa Senhora da Guia",
+    "assistantId" : "",
+    "id" : "-LTdwxjhw0N-IWWGuF-O",
+    "lat" : "-5.108593",
+    "long" : "-42.77369",
+    "name" : "UBS Nossa Senhora da Guia",
+    "phone" : "3215-9217",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwy8tnzHxRMLlEoPA" : {
+    "address" : "Rua Santa Maria Gorete, S/N - Vila da Paz",
+    "assistantId" : "",
+    "id" : "-LTdwy8tnzHxRMLlEoPA",
+    "lat" : "-5.116496",
+    "long" : "-42.787569",
+    "name" : "UBS Nossa Senhora da Paz",
+    "phone" : "3218-2552",
+    "zone" : "Sul"
+  },
+  "-LTdwyZWSHRYcrhCqyIm" : {
+    "address" : "Rua Cel. Santo Estevão, 4217 - Lot. Carlos Falcão",
+    "assistantId" : "",
+    "id" : "-LTdwyZWSHRYcrhCqyIm",
+    "lat" : "-5.11397",
+    "long" : "-42.751697",
+    "name" : "UBS Novo Horizonte",
+    "phone" : "3215-9209",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwyyb2RPTXAR2Tv21" : {
+    "address" : "Rua Francisca Trindade",
+    "assistantId" : "",
+    "id" : "-LTdwyyb2RPTXAR2Tv21",
+    "lat" : "-4.998805",
+    "long" : "-42.834748",
+    "name" : "UBS Parque Brasil",
+    "phone" : "",
+    "zone" : "Norte"
+  },
+  "-LTdwzYDbma0EC45Z122" : {
+    "address" : "Rua Leônidas Alves, 3299 - Parque Flamboyant",
+    "assistantId" : "",
+    "id" : "-LTdwzYDbma0EC45Z122",
+    "lat" : "-5.097006",
+    "long" : "-42.75876",
+    "name" : "UBS Parque Flamboyant",
+    "phone" : "3235-4171",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdwzwv-8heGaKFJkBz" : {
+    "address" : "Rua da Favieira, 2396",
+    "assistantId" : "",
+    "id" : "-LTdwzwv-8heGaKFJkBz",
+    "lat" : "-5.150162",
+    "long" : "-42.775215",
+    "name" : "UBS Parque Pioneiro",
+    "phone" : "321-9241",
+    "zone" : "Sul"
+  },
+  "-LTdx-NFCer98Z35qE6X" : {
+    "address" : "Av. João Antônio Leitão, 4661",
+    "assistantId" : "",
+    "id" : "-LTdx-NFCer98Z35qE6X",
+    "lat" : "-5.064234",
+    "long" : "-42.759657",
+    "name" : "UBS Piçarreira",
+    "phone" : "3215-9216",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx-nErvaF3MncC3My" : {
+    "address" : "Rua Esperantina, 2312",
+    "assistantId" : "",
+    "id" : "-LTdx-nErvaF3MncC3My",
+    "lat" : "-5.062838",
+    "long" : "-42.778108",
+    "name" : "UBS Planalto Ininga",
+    "phone" : "3215-9217",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx0CoAlLQjpTGUbSw" : {
+    "address" : "Rua 01, nº 6955 - Conj. Planalto Uruguai,",
+    "assistantId" : "",
+    "id" : "-LTdx0CoAlLQjpTGUbSw",
+    "lat" : "-5.050686",
+    "long" : "-42.738295",
+    "name" : "UBS Planalto Uruguai",
+    "phone" : "3215-9202",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx0bneGPHXGXvmXea" : {
+    "address" : "Qd - B Casa 14,",
+    "assistantId" : "",
+    "id" : "-LTdx0bneGPHXGXvmXea",
+    "lat" : "-5.1890401",
+    "long" : "-42.7443697",
+    "name" : "UBS Portal da Alegria",
+    "phone" : "3219-2940",
+    "zone" : "Sul"
+  },
+  "-LTdx10y68AhznDmLLp0" : {
+    "address" : "Qd-02, Cs-05, - Con. Porto Alegre",
+    "assistantId" : "",
+    "id" : "-LTdx10y68AhznDmLLp0",
+    "lat" : "-5.191347",
+    "long" : "-42.758231",
+    "name" : "UBS Porto Alegre",
+    "phone" : "3215-9197",
+    "zone" : "Sul"
+  },
+  "-LTdx1SDK5yUhPVn2DKA" : {
+    "address" : "Rua 06, nº 44 - Res. Firmino Filho",
+    "assistantId" : "",
+    "id" : "-LTdx1SDK5yUhPVn2DKA",
+    "lat" : "-5.113533",
+    "long" : "-42.736346",
+    "name" : "UBS Raimunda Soares",
+    "phone" : "3215-9225",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx1wJLiXPvIVmMoH5" : {
+    "address" : "Rua 19 de Novembro",
+    "assistantId" : "",
+    "id" : "-LTdx1wJLiXPvIVmMoH5",
+    "lat" : "-5.051669",
+    "long" : "-42.819305",
+    "name" : "UBS Real Copagre",
+    "phone" : "3215-7738",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdx2dL4xxPBGZXv6zI" : {
+    "address" : "Quadra G, Casa: 04",
+    "assistantId" : "",
+    "id" : "-LTdx2dL4xxPBGZXv6zI",
+    "lat" : "-5.093001",
+    "long" : "-42.742165",
+    "name" : "UBS Redonda",
+    "phone" : "3231-1438",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx39fQKZxI0WLWu_5" : {
+    "address" : "Rua Dr. Pedro Teixeira, 4722 - Parque Itararé",
+    "assistantId" : "",
+    "id" : "-LTdx39fQKZxI0WLWu_5",
+    "lat" : "-5.105234",
+    "long" : "-42.749074",
+    "name" : "UBS Renascença",
+    "phone" : "3236-1021",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx3a6ZZRsS2tlXKD7" : {
+    "address" : "Rua Raimundo Dorotéia, S/N - Santa Maria da Codipi",
+    "assistantId" : "",
+    "id" : "-LTdx3a6ZZRsS2tlXKD7",
+    "lat" : "-4.98381",
+    "long" : "-42.842898",
+    "name" : "UBS Santa Maria da Codipi",
+    "phone" : "3215-9196",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdx40zISBeqlp6Ay9U" : {
+    "address" : "Rua Epitácio Pessoa, 2085",
+    "assistantId" : "",
+    "id" : "-LTdx40zISBeqlp6Ay9U",
+    "lat" : "-5.131548",
+    "long" : "-42.785454",
+    "name" : "UBS São Camilo (Lourival Parente)",
+    "phone" : "3215-9160",
+    "zone" : "Sul"
+  },
+  "-LTdx4Rf69q7Tx9Z5lkr" : {
+    "address" : "Rua Belizário da Cunha, 468",
+    "assistantId" : "",
+    "id" : "-LTdx4Rf69q7Tx9Z5lkr",
+    "lat" : "-5.085414",
+    "long" : "-42.775844",
+    "name" : "UBS São João",
+    "phone" : "3234-7843",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx4qw7iQ55PJzhLXp" : {
+    "address" : "Rua Francisco Cassiano de Brito, S/N",
+    "assistantId" : "",
+    "id" : "-LTdx4qw7iQ55PJzhLXp",
+    "lat" : "-5.111375",
+    "long" : "-42.784758",
+    "name" : "UBS Sergio Luiz Chantal - Três Andares",
+    "phone" : "321-9193",
+    "zone" : "Sul"
+  },
+  "-LTdx5Ge9kFt1d10b8AG" : {
+    "address" : "",
+    "assistantId" : "",
+    "id" : "-LTdx5Ge9kFt1d10b8AG",
+    "lat" : "-5.074563",
+    "long" : "-42.623295",
+    "name" : "UBS  Sitio São Carlos (Atalaia)",
+    "phone" : "",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx5g_Auifp-bvKmzn" : {
+    "address" : "Rua São Raimundo, S/N",
+    "assistantId" : "",
+    "id" : "-LTdx5g_Auifp-bvKmzn",
+    "lat" : "-5.09871",
+    "long" : "-42.721873",
+    "name" : "UBS Todos os Santos",
+    "phone" : "3215-9207",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx66U1DkfCJ9HsXFI" : {
+    "address" : "Rua 02, S/N, Loteamento Mocambinho.",
+    "assistantId" : "",
+    "id" : "-LTdx66U1DkfCJ9HsXFI",
+    "lat" : "-5.030041",
+    "long" : "-42.815485",
+    "name" : "UBS Valdinar Pereira - Mocambinho",
+    "phone" : "3215-7738",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdx6__t3mJ-mi78HM9" : {
+    "address" : "Av. Manoel Ayres Neto, Qd-09, CS: 03",
+    "assistantId" : "",
+    "id" : "-LTdx6__t3mJ-mi78HM9",
+    "lat" : "-5.1502788",
+    "long" : "-42.7580428",
+    "name" : "UBS Vamos Ver o Sol",
+    "phone" : "3215-4122",
+    "zone" : "Sul"
+  },
+  "-LTdx73j5x8IvZW5D_4k" : {
+    "address" : "Rua Dom Bosco, S/N - Vila Bandeirantes",
+    "assistantId" : "",
+    "id" : "-LTdx73j5x8IvZW5D_4k",
+    "lat" : "-5.045926",
+    "long" : "-42.752365",
+    "name" : "UBS Vila Bandeirante",
+    "phone" : "3215-9201",
+    "zone" : "Leste-Sudeste"
+  },
+  "-LTdx7Wp-ojbub5FwKKm" : {
+    "address" : "Rua Pedro II, 700",
+    "assistantId" : "",
+    "id" : "-LTdx7Wp-ojbub5FwKKm",
+    "lat" : "-5.115032",
+    "long" : "-42.798239",
+    "name" : "UBS Vila Confiança",
+    "phone" : "3215-1616",
+    "zone" : "Sul"
+  },
+  "-LTdx7wcZdPfXImF5aQC" : {
+    "address" : "Rua Santa Francisca Cabrine, Vila Irmã Dulce",
+    "assistantId" : "",
+    "id" : "-LTdx7wcZdPfXImF5aQC",
+    "lat" : "-5.1906594",
+    "long" : "-42.7737991",
+    "name" : "UBS Vila Irmã Dulce",
+    "phone" : "3215-9198",
+    "zone" : "Sul"
+  },
+  "-LTdx8LhiNurPxyowJsl" : {
+    "address" : "Avenida Santa Teresinha, 1382 - Vila do Avião",
+    "assistantId" : "",
+    "id" : "-LTdx8LhiNurPxyowJsl",
+    "lat" : "-5.007382",
+    "long" : "-42.782281",
+    "name" : "UBS Vila do Avião",
+    "phone" : "3215-9213",
+    "zone" : "Centro-Norte"
+  },
+  "-LTdx8ltKuCIQ1zsE0iX" : {
+    "address" : "Rua 02, nº 1.098 - Vila Carolina Silva",
+    "assistantId" : "",
+    "id" : "-LTdx8ltKuCIQ1zsE0iX",
+    "lat" : "-5.154403",
+    "long" : "-42.791926",
+    "name" : "UBS Vila Carolina Silva",
+    "phone" : "3216-6428",
+    "zone" : "Sul"
+  },
+  "-LTdx9FLtUhfhEHIPnsV" : {
+    "address" : "Rua Manoel Vitor Cordeiro. 6039 - Vila Santa Clara",
+    "assistantId" : "",
+    "id" : "-LTdx9FLtUhfhEHIPnsV",
+    "lat" : "-5.177414",
+    "long" : "-42.762693",
+    "name" : "UBS Virgina Castelo Branco (Santa Clara)",
+    "phone" : "3216-5649",
+    "zone" : "Sul"
+  }
+}
