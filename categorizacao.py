@@ -1,3 +1,7 @@
+'''
+ARQUIVO TESTE PARA AS AS FUNÇÕES IMPLEMENTADAS NO ARQUIVO Categorias.py
+author: Manassés Silva
+'''
 import json
 from typing import Dict
 from numpy import rint
