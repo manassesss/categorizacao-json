@@ -183,3 +183,73 @@ class EsporteELazer(Categoria):
             if "Quadra" in name:
                 self.save[i]['unidade'] = 'Quadra'
             
+class Predio_Publicos(Categoria):
+    save = {}
+    def classificarClasse(self, dicionario):
+        '''
+        Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Predios Publicos
+        
+        :parametro dicionario: objeto dict() que contém os objetos do arquivo JSON.
+        :retorno none: Não retorna nada ainda.
+        '''
+        for i in dicionario:
+            name = dicionario[i]['name'].split()
+            if ("SEMEC" in name) or ("SEMCOP" in name) or ("SEMAM" in name) or ("SEMA" in name) or ("PRODATER" in name) or ("SEMPLAN" in name)or ("PGM" in name) or ("IPMT" in name)or ("SEMDUH" in name)or ("SEMCASPI" in name)or ("SEMCOP" in name) or ("SEMDEC" in name)or ("SEMEST" in name) or ("SEMEL" in name) or ("SEMPOM" in name) or ("SEMJUV" in name) or ("STRANS" in name) or ("FMS" in name)or ("ARSETE" in name)or ("SDR" in name)or ("FMC" in name)or ("FWF" in name):
+                self.save[i] = dicionario[i]
+                self.save[i]['classe'] = "Educacao"
+    
+    def classificarUnidade(self):
+        '''
+        Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso as categorias seriam todas as unidades
+        que correspondem a um orgão público. Isso vai desde Secretarias a Cartórios.
+        
+        :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
+                    JSON com as alterações feitas.
+        :retorno save: Retorna o o dicionario save com as informações novas
+        '''
+        for i in self.save:
+            name = self.save[i]['name'].split()
+            if "SEMCOP" in name or "E.M." in name:
+                self.save[i]['unidade'] = 'SEMCOP'
+            if "SEMAM" in name:
+                self.save[i]['unidade'] = 'SEMAM'
+            if "SEMA" in name:
+                self.save[i]['unidade'] = 'SEMA'
+            if "PRODATER" in name:
+                self.save[i]['unidade'] = 'PRODATER'
+            if "PGM" in name:
+                self.save[i]['unidade'] = 'PGM'
+            if "IPMT" in name:
+                self.save[i]['unidade'] = 'IPMT'
+            if "SEMDUH" in name:
+                self.save[i]['unidade'] = 'SEMDUH'
+            if "SEMCASPI" in name:
+                self.save[i]['unidade'] = 'SEMCASPI'
+            if "SEMCOP" in name:
+                self.save[i]['unidade'] = 'SEMCOP'
+            if "SEMEST" in name:
+                self.save[i]['unidade'] = 'SEMEST'
+            if "SEMDEC" in name:
+                self.save[i]['unidade'] = 'SEMDEC'
+            if "SEMEL" in name:
+                self.save[i]['unidade'] = 'SEMEL'
+            if "SEMPOM" in name:
+                self.save[i]['unidade'] = 'SEMPOM'
+            if "SEMJUV" in name:
+                self.save[i]['unidade'] = 'SEMJUV'
+            if "STRANS" in name:
+                self.save[i]['unidade'] = 'STRANS'
+            if "FMS" in name:
+                self.save[i]['unidade'] = 'FMS'
+            if "FWF" in name:
+                self.save[i]['unidade'] = 'FWF'
+            if "FMC" in name:
+                self.save[i]['unidade'] = 'FMC'
+            if "SDR" in name:
+                self.save[i]['unidade'] = 'SDR'
+            if "ARSETE" in name:
+                self.save[i]['unidade'] = 'ARSETE'
+            
+            
+            
+    
