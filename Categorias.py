@@ -209,7 +209,7 @@ class Predio_Publicos(Categoria):
         '''
         for i in self.save:
             name = self.save[i]['name'].split()
-            if "SEMCOP" in name or "E.M." in name:
+            if "SEMCOP" in name:
                 self.save[i]['unidade'] = 'SEMCOP'
             if "SEMAM" in name:
                 self.save[i]['unidade'] = 'SEMAM'
@@ -250,6 +250,36 @@ class Predio_Publicos(Categoria):
             if "ARSETE" in name:
                 self.save[i]['unidade'] = 'ARSETE'
             
+class Meio_Ambiente(Categoria):
+    
+        save = {}
+        def classificarClasse(self, dicionario):
+            '''
+            Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Meio Ambiente
             
+            :parametro dicionario: objeto dict() que contém os objetos do arquivo JSON.
+            :retorno none: Não retorna nada ainda.
+            '''
+            for i in dicionario:
+                name = dicionario[i]['name'].split()
+                if ("PEV" in name):
+                    self.save[i] = dicionario[i]
+                    self.save[i]['classe'] = "Educacao"
+        
+        def classificarUnidade(self):
+            '''
+            Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias PEV (Pontos de Entrega Voluntaria)
+            
+            :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
+                        JSON com as alterações feitas.
+            :retorno save: Retorna o o dicionario save com as informações novas
+            '''
+            for i in self.save:
+                name = self.save[i]['name'].split()
+                if "PEV" in name :
+                    self.save[i]['unidade'] = 'PEV'
+                
+                
+        
             
     
