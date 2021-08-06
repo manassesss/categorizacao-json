@@ -19,6 +19,8 @@ E = Categorias.Educacao()
 L = Categorias.EsporteELazer()
 A = Categorias.Assistencia_Social()
 S = Categorias.Saude()
+M = Categorias.Meio_Ambiente()
+N = Categorias.Saneamento()
 
 # Classificando por classes.
 
@@ -33,6 +35,13 @@ A.classificarUnidade()
 
 S.classificarClasse(arquivo_original)
 S.classificarUnidade()
+
+M.classificarClasse(arquivo_original)
+M.classificarUnidade()
+
+N.classificarClasse(arquivo_original)
+N.classificarUnidade()
+
 
 with open("final.json", "w", encoding="utf8") as json_outfile:
     json.dump(S.save, json_outfile, indent=4)

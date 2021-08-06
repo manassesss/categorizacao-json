@@ -294,7 +294,8 @@ class Saneamento(Categoria):
         
         def classificarUnidade(self):
             '''
-            Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias PEV (Pontos de Entrega Voluntaria)
+            Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias Aterro Sanitário, 
+            Estação Elevatória, 
             
             :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
                         JSON com as alterações feitas.
@@ -306,8 +307,3 @@ class Saneamento(Categoria):
                     self.save[i]['unidade'] = 'Aterro Sanitário'
                 if "EstaçãoElevatória" in name:
                     self.save[i]['unidade'] = 'Estação Elevatória'
-                
-                
-        
-            
-    
