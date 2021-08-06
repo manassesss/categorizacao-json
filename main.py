@@ -25,25 +25,14 @@ S = Categorias.Saude()
 E.classificarClasse(arquivo_original)
 E.classificarUnidade()
 
-with open("educacao.json", "w", encoding="utf8") as json_outfile:
-    json.dump(E.save, json_outfile, indent=4)
-
-
-
 L.classificarClasse(arquivo_original)
 L.classificarUnidade()
-
-with open("esporteELazer.json", "w", encoding="utf8") as json_outfile:
-    json.dump(L.save, json_outfile, indent=4)
 
 A.classificarClasse(arquivo_original)
 A.classificarUnidade()
 
-with open("assistenciaSocial.json", "w", encoding="utf8") as json_outfile:
-    json.dump(A.save, json_outfile, indent=4)
-
 S.classificarClasse(arquivo_original)
 S.classificarUnidade()
 
-with open("saude.json", "w", encoding="utf8") as json_outfile:
+with open("final.json", "w", encoding="utf8") as json_outfile:
     json.dump(S.save, json_outfile, indent=4)

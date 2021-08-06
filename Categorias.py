@@ -10,6 +10,7 @@ class Categoria (ABC):
     :parametros none:
     :metodos: classificarClasse(), classificarUnidade()
     '''
+    save = {}
     @abstractmethod
     def classificarClasse():
         
@@ -19,13 +20,6 @@ class Categoria (ABC):
         pass
     
 class Assistencia_Social(Categoria):
-    save = {}
-    '''
-    :classe Assistencia_Social: Responsável por conter os metodos e variaveis que categorizarão 
-                                e salvarão os dados do JSON de acordo a classificação Assistência Social.
-    :parametros none:
-    :metodos: classificarClasse(), classificarUnidade()
-    '''
     def classificarClasse(self, dicionario):
         '''
         Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Assistência Social
@@ -65,7 +59,6 @@ class Assistencia_Social(Categoria):
             
 
 class Saude(Categoria):
-    save = {}
     def classificarClasse(self, dicionario):
         '''
         Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Saúde
@@ -100,7 +93,6 @@ class Saude(Categoria):
         return self.save
            
 class Educacao(Categoria):
-    save = {}
     def classificarClasse(self, dicionario):
         '''
         Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Educação
@@ -136,7 +128,6 @@ class Educacao(Categoria):
             
 
 class EsporteELazer(Categoria):
-    save = {}
     def classificarClasse(self, dicionario):
         '''
         Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Esporte E Lazer
@@ -183,8 +174,7 @@ class EsporteELazer(Categoria):
             if "Quadra" in name:
                 self.save[i]['unidade'] = 'Quadra'
             
-class Predio_Publicos(Categoria):
-    save = {}
+class Predios_Publicos(Categoria):
     def classificarClasse(self, dicionario):
         '''
         Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Predios Publicos
@@ -194,7 +184,7 @@ class Predio_Publicos(Categoria):
         '''
         for i in dicionario:
             name = dicionario[i]['name'].split()
-            if ("SEMEC" in name) or ("SEMCOP" in name) or ("SEMAM" in name) or ("SEMA" in name) or ("PRODATER" in name) or ("SEMPLAN" in name)or ("PGM" in name) or ("IPMT" in name)or ("SEMDUH" in name)or ("SEMCASPI" in name)or ("SEMCOP" in name) or ("SEMDEC" in name)or ("SEMEST" in name) or ("SEMEL" in name) or ("SEMPOM" in name) or ("SEMJUV" in name) or ("STRANS" in name) or ("FMS" in name)or ("ARSETE" in name)or ("SDR" in name)or ("FMC" in name)or ("FWF" in name):
+            if ("SEMEC" in name) or ("SEMCOP" in name) or ("SEMAM" in name) or ("SEMA" in name) or ("PRODATER" in name) or ("SEMPLAN" in name)or ("PGM" in name) or ("IPMT" in name)or ("SEMDUH" in name)or ("SEMCASPI" in name)or ("SEMCOP" in name) or ("SEMDEC" in name)or ("SEMEST" in name) or ("SEMEL" in name) or ("SEMPOM" in name) or ("SEMJUV" in name) or ("STRANS" in name) or ("FMS" in name)or ("ARSETE" in name)or ("SDR" in name)or ("FMC" in name)or ("FWF" in name) or ("PrefeituradeTeresina" in name) or ("VicePrefeitura" in name) or ("SDU" in name) or("CAT" in name):
                 self.save[i] = dicionario[i]
                 self.save[i]['classe'] = "Educacao"
     
@@ -247,12 +237,15 @@ class Predio_Publicos(Categoria):
                 self.save[i]['unidade'] = 'FMC'
             if "SDR" in name:
                 self.save[i]['unidade'] = 'SDR'
-            if "ARSETE" in name:
-                self.save[i]['unidade'] = 'ARSETE'
-            
+            if "PrefeituradeTeresina" in name:
+                self.save[i]['unidade'] = 'Prefeitura de Teresina'
+            if "VicePrefeitura" in name:
+                self.save[i]['unidade'] = 'Vice Prefeitura'
+            if "SDU" in name:
+                self.save[i]['unidade'] = 'SDU'
+            if "CAT" in name:
+                self.save[i]['unidade'] = 'CAT'
 class Meio_Ambiente(Categoria):
-    
-        save = {}
         def classificarClasse(self, dicionario):
             '''
             Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Meio Ambiente
@@ -262,9 +255,9 @@ class Meio_Ambiente(Categoria):
             '''
             for i in dicionario:
                 name = dicionario[i]['name'].split()
-                if ("PEV" in name):
+                if ("PEV" in name) or ("PontodeRecebimentodeResíduo" in name) or ("EstaçãodeTransbordodeResíduosSólidos" in name) or ("HC" in name):
                     self.save[i] = dicionario[i]
-                    self.save[i]['classe'] = "Educacao"
+                    self.save[i]['classe'] = "Meio Ambiente"
         
         def classificarUnidade(self):
             '''
@@ -278,6 +271,41 @@ class Meio_Ambiente(Categoria):
                 name = self.save[i]['name'].split()
                 if "PEV" in name :
                     self.save[i]['unidade'] = 'PEV'
+                if "PontodeRecebimentodeResíduo" in name:
+                    self.save[i]['unidade'] = 'Ponto de Recebimento de Resíduo'
+                if "EstaçãodeTransbordodeResíduosSólidos" in name:
+                    self.save[i]['unidade'] = 'Estação de Transbordo de Resíduos Sólidos'
+                if "HC" in name:
+                    self.save[i]['unidade'] = 'Hortas Comunitárias'
+
+class Saneamento(Categoria):
+        def classificarClasse(self, dicionario):
+            '''
+            Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Saneamento
+            
+            :parametro dicionario: objeto dict() que contém os objetos do arquivo JSON.
+            :retorno none: Não retorna nada ainda.
+            '''
+            for i in dicionario:
+                name = dicionario[i]['name'].split()
+                if ("Aterro" in name) or ("EstaçãoElevatória" in name):
+                    self.save[i] = dicionario[i]
+                    self.save[i]['classe'] = "Saneamento"
+        
+        def classificarUnidade(self):
+            '''
+            Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias PEV (Pontos de Entrega Voluntaria)
+            
+            :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
+                        JSON com as alterações feitas.
+            :retorno save: Retorna o o dicionario save com as informações novas
+            '''
+            for i in self.save:
+                name = self.save[i]['name'].split()
+                if "Aterro" in name:
+                    self.save[i]['unidade'] = 'Aterro Sanitário'
+                if "EstaçãoElevatória" in name:
+                    self.save[i]['unidade'] = 'Estação Elevatória'
                 
                 
         
