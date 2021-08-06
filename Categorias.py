@@ -261,7 +261,8 @@ class Meio_Ambiente(Categoria):
         
         def classificarUnidade(self):
             '''
-            Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias PEV (Pontos de Entrega Voluntaria)
+            Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias PEV (Pontos de Entrega Voluntaria),
+            Pontode Recebimento de Resíduo, Estação de Transbordo de Resíduos Sólidos, Hortas Comunitárias
             
             :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
                         JSON com as alterações feitas.
