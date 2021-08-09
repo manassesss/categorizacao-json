@@ -85,7 +85,7 @@ class Saude(Categoria):
             name = dicionario[i]['name'].split()
             if ("Hospital" in name) or ("UBS" in name) or ("SAMU" in name) :
                 self.save[i] = dicionario[i]
-                self.save[i]['classe'] = "Saúde"
+                self.save[i]['classe'] = "Saude"
         
     
     def classificarUnidade(self):
@@ -117,14 +117,14 @@ class Educacao(Categoria):
         '''
         for i in dicionario:
             name = dicionario[i]['name'].split()
-            if ("Escola" in name) or ("Bibilioteca" in name) or ("CMEI" in name) or ("E.M." in name) or ("Creche" in name):
+            if ("Escola" in name) or ("Biblioteca" in name) or ("CMEI" in name) or ("E.M." in name) or ("Creche" in name):
                 self.save[i] = dicionario[i]
                 self.save[i]['classe'] = "Educacao"
     
     def classificarUnidade(self):
         '''
         Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias Escola,
-        Bibilioteca, CMEI, Creche.
+        Biblioteca, CMEI, Creche.
         
         :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
                     JSON com as alterações feitas.
@@ -134,8 +134,8 @@ class Educacao(Categoria):
             name = self.save[i]['name'].split()
             if "Escola" in name or "E.M." in name:
                 self.save[i]['unidade'] = 'Escola'
-            if "Bibilioteca" in name:
-                self.save[i]['unidade'] = 'Bibilioteca'
+            if "Biblioteca" in name:
+                self.save[i]['unidade'] = 'Biblioteca'
             if "CMEI" in name:
                 self.save[i]['unidade'] = 'CMEI'
             if "Creche" in name:

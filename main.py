@@ -21,6 +21,8 @@ A = Categorias.Assistencia_Social()
 S = Categorias.Saude()
 M = Categorias.Meio_Ambiente()
 N = Categorias.Saneamento()
+P = Categorias.Predios_Publicos()
+O = Categorias.Outros()
 
 # Classificando por classes.
 
@@ -41,6 +43,14 @@ M.classificarUnidade()
 
 N.classificarClasse(arquivo_original)
 N.classificarUnidade()
+
+P.classificarClasse(arquivo_original)
+P.classificarUnidade()
+
+O.classificarClasse(arquivo_original)
+O.classificarUnidade()
+
+
 
 
 with open("final.json", "w", encoding="utf8") as json_outfile:
