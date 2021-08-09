@@ -29,14 +29,14 @@ class Assistencia_Social(Categoria):
         '''
         for i in dicionario:
             name = dicionario[i]['name'].split()
-            if ("CREAS" in name) or ("CRAS" in name) or ("Abrigo" in name) or ("CentroPOP" in name) or ("CentroDia" in name) or ("SEMCASPI" in name) or ("CentrodeConvivência" in name) or ("Conselho Tutelar" in name) :
+            if ("CREAS" in name) or ("CRAS" in name) or ("Abrigo" in name) or ("CentroPOP" in name) or ("CentroDia" in name) or ("SEMCASPI" in name) or ("CentrodeConvivência" in name) or ("Conselho Tutelar" in name) or ("AssociaçãodosAmigosAutistas" in name) or ("LAC" in name) or ("ASA/" in name) or ("APAE" in name) or ("APADA" in name) or ("ACEP" in name):
                 self.save[i] = dicionario[i]
                 self.save[i]['classe'] = "Assistencia Social"
     
     def classificarUnidade(self):
         '''
         Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias CREAS, 
-        CRAS, Abrigo, Centro POP, Centro Dia, Centro de Convivência, Conselho Tutelar
+        CRAS, Abrigo, Centro POP, Centro Dia, Centro de Convivência, Conselho Tutelar, AMA, LAC, ASA, APAE, APADA, 
         
         :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
                     JSON com as alterações feitas.
@@ -58,7 +58,20 @@ class Assistencia_Social(Categoria):
                 self.save[i]['unidade'] = 'Centro de Convivência'
             if "ConselhoTutelar" in name:
                 self.save[i]['unidade'] = 'Conselho Tutelar'
-            
+            if "AssociaçãodosAmigosAutistas" in name:
+                self.save[i]['unidade'] = 'AMA'
+            if "LAC" in name:
+                self.save[i]['unidade'] = 'LAC'
+            if "ASA/" in name:
+                self.save[i]['unidade'] = 'ASA/'
+            if "APAE" in name:
+                self.save[i]['unidade'] = 'APAE'
+            if "APADA" in name:
+                self.save[i]['unidade'] = 'APADA'
+            if "ACEP" in name:
+                self.save[i]['unidade'] = 'ACEP'
+            if "Libras" in name:
+                self.save[i]['unidade'] = 'Libras'
 
 class Saude(Categoria):
     def classificarClasse(self, dicionario):
@@ -338,6 +351,4 @@ class Outros(Categoria):
                 name = self.save[i]['name'].split()
                 if "Cemitério" in name:
                     self.save[i]['unidade'] = 'Cemitério'
-                if "EstaçãoElevatória" in name:
-                    self.save[i]['unidade'] = 'Estação Elevatória'
 
