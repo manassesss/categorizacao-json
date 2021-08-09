@@ -201,7 +201,7 @@ class Predios_Publicos(Categoria):
             name = dicionario[i]['name'].split()
             if ("SEMEC" in name) or ("SEMCOP" in name) or ("SEMAM" in name) or ("SEMA" in name) or ("PRODATER" in name) or ("SEMPLAN" in name)or ("PGM" in name) or ("IPMT" in name)or ("SEMDUH" in name)or ("SEMCASPI" in name)or ("SEMCOP" in name) or ("SEMDEC" in name)or ("SEMEST" in name) or ("SEMEL" in name) or ("SEMPOM" in name) or ("SEMJUV" in name) or ("STRANS" in name) or ("FMS" in name)or ("ARSETE" in name)or ("SDR" in name)or ("FMC" in name)or ("FWF" in name) or ("PrefeituradeTeresina" in name) or ("VicePrefeitura" in name) or ("SDU" in name) or("CAT" in name):
                 self.save[i] = dicionario[i]
-                self.save[i]['classe'] = "Educacao"
+                self.save[i]['classe'] = "Predios Publicos"
     
     def classificarUnidade(self):
         '''
