@@ -336,7 +336,7 @@ class Outros(Categoria):
                 name = dicionario[i]['name'].split()
                 if ("Aterro" in name) or ("EstaçãoElevatória" in name):
                     self.save[i] = dicionario[i]
-                    self.save[i]['classe'] = "Saneamento"
+                    self.save[i]['classe'] = "Outros"
         
         def classificarUnidade(self):
             '''
