@@ -334,7 +334,7 @@ class Outros(Categoria):
             '''
             for i in dicionario:
                 name = dicionario[i]['name'].split()
-                if ("Aterro" in name) or ("EstaçãoElevatória" in name):
+                if ("Cemitério" in name):
                     self.save[i] = dicionario[i]
                     self.save[i]['classe'] = "Outros"
         
