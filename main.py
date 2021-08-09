@@ -44,4 +44,4 @@ N.classificarUnidade()
 
 
 with open("final.json", "w", encoding="utf8") as json_outfile:
-    json.dump(S.save, json_outfile, indent=4)
+    json.dump(S.save, json_outfile, ensure_ascii=False,indent=4)

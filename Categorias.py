@@ -29,14 +29,14 @@ class Assistencia_Social(Categoria):
         '''
         for i in dicionario:
             name = dicionario[i]['name'].split()
-            if ("CREAS" in name) or ("CRAS" in name) or ("Abrigo" in name) or ("CentroPOP" in name) or ("CentroDia" in name) or ("SEMCASPI" in name) or ("CentrodeConvivência" in name) :
+            if ("CREAS" in name) or ("CRAS" in name) or ("Abrigo" in name) or ("CentroPOP" in name) or ("CentroDia" in name) or ("SEMCASPI" in name) or ("CentrodeConvivência" in name) or ("Conselho Tutelar" in name) :
                 self.save[i] = dicionario[i]
                 self.save[i]['classe'] = "Assistencia Social"
     
     def classificarUnidade(self):
         '''
         Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias CREAS, 
-        CRAS, Abrigo, Centro POP, Centro Dia, Centro de Convivência.
+        CRAS, Abrigo, Centro POP, Centro Dia, Centro de Convivência, Conselho Tutelar
         
         :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
                     JSON com as alterações feitas.
@@ -56,6 +56,8 @@ class Assistencia_Social(Categoria):
                 self.save[i]['unidade'] = 'Centro Dia'
             if "CentrodeConvivência" in name:
                 self.save[i]['unidade'] = 'Centro de Convivência'
+            if "ConselhoTutelar" in name:
+                self.save[i]['unidade'] = 'Conselho Tutelar'
             
 
 class Saude(Categoria):
@@ -308,3 +310,34 @@ class Saneamento(Categoria):
                     self.save[i]['unidade'] = 'Aterro Sanitário'
                 if "EstaçãoElevatória" in name:
                     self.save[i]['unidade'] = 'Estação Elevatória'
+
+class Outros(Categoria):
+        def classificarClasse(self, dicionario):
+            '''
+            Responsável por classificar os objetos do arquivo JSON em classes. Neste caso na classe Outros
+            
+            :parametro dicionario: objeto dict() que contém os objetos do arquivo JSON.
+            :retorno none: Não retorna nada ainda.
+            '''
+            for i in dicionario:
+                name = dicionario[i]['name'].split()
+                if ("Aterro" in name) or ("EstaçãoElevatória" in name):
+                    self.save[i] = dicionario[i]
+                    self.save[i]['classe'] = "Saneamento"
+        
+        def classificarUnidade(self):
+            '''
+            Responsável por classificar os objetos do arquivo JSON em categorias. Neste caso nas categorias Cemitério, 
+            Fazenda da Paz, 
+            
+            :parametro: Não tem parametro, ele utiliza uma variavel da classe (save) para salvar os objetos do arquivo 
+                        JSON com as alterações feitas.
+            :retorno save: Retorna o o dicionario save com as informações novas
+            '''
+            for i in self.save:
+                name = self.save[i]['name'].split()
+                if "Cemitério" in name:
+                    self.save[i]['unidade'] = 'Cemitério'
+                if "EstaçãoElevatória" in name:
+                    self.save[i]['unidade'] = 'Estação Elevatória'
+
