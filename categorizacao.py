@@ -19,7 +19,6 @@ u2 = {}
 cont = 0
 #teste para salvar
 save = {'Educacao': []}
-print(save)
 part = {'icon': '', 'lat': '', 'long': '', 'name': '', 'unidade': ''}
 #salvando as chaves geradas pelo firebase em na lista de chaves
 for i in u1:
@@ -33,16 +32,13 @@ for i in u1_keys:
 
 
 for i in u2:
+    print(i)
     classe = u2[i]['classe'].split()
     if ("Educacao" in classe):
-         part['icon'] = u2[i]['icon']
-         part['lat'] = u2[i]['lat']
-         part['long'] = u2[i]['long']
-         part['name'] = u2[i]['name']
-         part['unidade'] = u2[i]['unidade']
-         save['Educacao'].insert(i, part)
+        part = u2[i]
+         
+        save['Educacao'].append(part)
 
 with open("test.json", "w", encoding="utf8") as json_outfile:
     json.dump(save, json_outfile, ensure_ascii=False,indent=4)
 
-print(save)

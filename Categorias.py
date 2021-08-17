@@ -8,9 +8,12 @@ class Categoria (ABC):
     '''
     :classe Categoria: Responsável por conter os metodos e variaveis que categorizarão e salvarão os dados do JSON.
     :parametros none:
-    :metodos: classificarClasse(), classificarUnidade()
+    :metodos: classificarClasse(), classificarUnidade(), classificarFinal()
     '''
+    part = {'icon': '', 'lat': '', 'long': '', 'name': '', 'unidade': ''}
     save = {}
+    final = {'Assistencia Social': [], 'Educacao':[], 'Saude': [], 'Esporte e Lazer': [], 'Predios Publicos': [], 'Meio Ambiente': [], 'Saneamento': [], 'Cultura': [], 'Outros': []}
+    
     @abstractmethod
     def classificarClasse():
         
@@ -32,7 +35,7 @@ class Assistencia_Social(Categoria):
         '''
         for i in dicionario:
             name = dicionario[i]['name'].split()
-            if ("CREAS" in name) or ("CRAS" in name) or ("Abrigo" in name) or ("CentroPOP" in name) or ("CentroDia" in name) or ("SEMCASPI" in name) or ("CentrodeConvivência" in name) or ("Conselho Tutelar" in name) or ("AssociaçãodosAmigosAutistas" in name) or ("LAC" in name) or ("ASA/" in name) or ("APAE" in name) or ("APADA" in name) or ("ACEP" in name) in ("Casade" in name):
+            if ("CREAS" in name) or ("CRAS" in name) or ("Abrigo" in name) or ("CentroPOP" in name) or ("CentroDia" in name) or ("SEMCASPI" in name) or ("CentrodeConvivência" in name) or ("Conselho Tutelar" in name) or ("AssociaçãodosAmigosAutistas" in name) or ("LAC" in name) or ("ASA/" in name) or ("APAE" in name) or ("APADA" in name) or ("ACEP" in name) or ("Casade" in name):
                 self.save[i] = dicionario[i]
                 self.save[i]['classe'] = "Assistencia Social"
     
@@ -79,7 +82,11 @@ class Assistencia_Social(Categoria):
                self.save[i]['unidade'] = 'Casa'
     
     def classificarFinal(self):
-        pass
+        for i in self.save:
+            classe = self.save[i]['classe']
+            if ("Assistencia Social" in classe):
+                self.part = self.save[i]
+                self.final['Assistencia Social'].append(self.part)
 
 class Saude(Categoria):
     def classificarClasse(self, dicionario):
@@ -114,7 +121,15 @@ class Saude(Categoria):
             if "SAMU" in name:
                 self.save[i]['unidade'] = 'SAMU'
         return self.save
-           
+    
+    def classificarFinal(self):
+        for i in self.save:
+            classe = self.save[i]['classe'].split()
+            if ("Saude" in classe):
+                self.part= self.save[i]
+                self.final['Saude'].append(self.part)
+
+
 class Educacao(Categoria):
     def classificarClasse(self, dicionario):
         '''
@@ -150,7 +165,13 @@ class Educacao(Categoria):
                 self.save[i]['unidade'] = 'Creche'
             if "CentrodeCapacitação" in name:
                 self.save[i]['unidade'] = 'Centro de Capacitacao'
-            
+    
+    def classificarFinal(self):
+        for i in self.save:
+            classe = self.save[i]['classe'].split()
+            if ("Educacao" in classe):
+                self.part = self.save[i]
+                self.final['Educacao'].append(self.part)
 
 class EsporteELazer(Categoria):
     def classificarClasse(self, dicionario):
@@ -204,7 +225,13 @@ class EsporteELazer(Categoria):
                 self.save[i]['unidade'] = 'Pista de Skate'
             if "PistaOlímpica" in name:
                 self.save[i]['unidade'] = 'Pista Olimpica'
-            
+    
+    def classificarFinal(self):
+        for i in self.save:
+            classe = self.save[i]['classe']
+            if ("Esporte e Lazer" in classe):
+                self.part = self.save[i]
+                self.final['Esporte e Lazer'].append(self.part)  
             
             
 class Predios_Publicos(Categoria):
@@ -288,7 +315,14 @@ class Predios_Publicos(Categoria):
                 self.save[i]['unidade'] = 'Gerencia de Farmacia'
             if "CentrodeIniciação" in name:
                 self.save[i]['unidade'] = 'CIE'
-                
+    
+    def classificarFinal(self):
+        for i in self.save:
+            classe = self.save[i]['classe']
+            if ("Predios Publicos" in classe):
+                self.part = self.save[i]
+                self.final['Predios Publicos'].append(self.part)
+                          
 class Meio_Ambiente(Categoria):
         def classificarClasse(self, dicionario):
             '''
@@ -326,7 +360,13 @@ class Meio_Ambiente(Categoria):
                     self.save[i]['unidade'] = 'Viveiro de Mudas'
                 if "CampoAgricola" in name or "CampoAgrícola" in name:
                     self.save[i]['unidade'] = 'Campo Agricola'
-                
+    
+        def classificarFinal(self):
+            for i in self.save:
+                classe = self.save[i]['classe']
+                if ("Meio Ambiente" in classe):
+                    self.part = self.save[i]
+                    self.final['Meio Ambiente'].append(self.part) 
 
 class Saneamento(Categoria):
         def classificarClasse(self, dicionario):
@@ -357,6 +397,14 @@ class Saneamento(Categoria):
                     self.save[i]['unidade'] = 'Aterro Sanitário'
                 if "EstaçãoElevatória" in name:
                     self.save[i]['unidade'] = 'Estação Elevatória'
+        
+        def classificarFinal(self):
+                for i in self.save:
+                    classe = self.save[i]['classe'].split()
+                    if ("Saneamento" in classe):
+                        self.part = self.save[i]
+                        self.final['Saneamento'].append(self.part)
+                        
 
 class Cultura(Categoria):
         def classificarClasse(self, dicionario):
@@ -393,7 +441,13 @@ class Cultura(Categoria):
                     self.save[i]['unidade'] = 'Galeria'
                 if "Palácio" in name:
                     self.save[i]['unidade'] = 'Palacio'
-                
+        
+        def classificarFinal(self):
+                for i in self.save:
+                    classe = self.save[i]['classe'].split()
+                    if ("Cultura" in classe):
+                        self.part = self.save[i]
+                        self.final['Cultura'].append(self.part)
 
 class Outros(Categoria):
         def classificarClasse(self, dicionario):
@@ -432,5 +486,10 @@ class Outros(Categoria):
                     self.save[i]['unidade'] = 'Polo Empresarial'
                 if "Bicicletário" in name:
                     self.save[i]['unidade'] = 'Bicicletário'
-
-
+        
+        def classificarFinal(self):
+                for i in self.save:
+                    classe = self.save[i]['classe'].split()
+                    if ("Outros" in classe):
+                        self.part = self.save[i]
+                        self.final['Outros'].append(self.part)
