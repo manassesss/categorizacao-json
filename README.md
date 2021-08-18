@@ -14,7 +14,7 @@ Desse modo foram organizados em Classes e Categorias de Classes, onde as Classes
 * [Cultura](#cultura)
 * [Outros](#outros)
 
-Cada uma dessas Classes possui Categorias que detêm de locais publicos que se encaixam nessas categorias. Por exemplo, se a Classe é Saneamento, ela detêm das categorias Aterro Sanitario e Estacao Elevatoria. Cada uma dessas categorias possui lugares que se encaixam nessa calssificação, como Estação Elevatória do São Joaquim - Lagoas do Norte, que se encaixa na categoria Estacao Elevatoria.
+Cada uma dessas Classes possui Categorias que detêm de locais publicos que se encaixam nessas categorias. Por exemplo, se a Classe é *Saneamento*, ela detêm das categorias *Aterro Sanitario* e *Estacao Elevatoria*. Cada uma dessas categorias possui lugares que se encaixam nessa calssificação, como Estação Elevatória do São Joaquim - Lagoas do Norte, que se encaixa na categoria Estacao Elevatoria.
 
 ## Assistência Social
 
