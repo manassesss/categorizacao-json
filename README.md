@@ -1,4 +1,4 @@
-# Categorização de Lugares Públicos de Teresina
+# :card_file_box: Categorização de Lugares Públicos de Teresina
 
 O objetivo desse projetinho era classificar os lugares públicos de Teresina de forma mais adequada. A forma como estava organizada no banco de dados estava muito bagunçada, então resolvemos organizar melhor para que o app que o utilizava tivesse um melhor desempenho.
 
@@ -16,7 +16,28 @@ Desse modo foram organizados em Classes e Categorias de Classes, onde as Classes
 
 Cada uma dessas Classes possui Categorias que detêm de locais públicos que se encaixam nessas categorias. Por exemplo, se a Classe é *Saneamento*, ela detêm das categorias *Aterro Sanitario* e *Estacao Elevatoria*. Cada uma dessas categorias possui lugares que se encaixam nessa classificação, como *Estação Elevatória do São Joaquim - Lagoas do Norte*, que pertence a categoria Estacao Elevatoria.
 
-## Assistência Social
+## :gear: Pré requisitos
+
+### Python
+
+Nessa task foi utilizado Python 3.6. Você pode encontra-lo para download [aqui](https://www.python.org/downloads/)
+
+## :hammer_and_wrench:	Como executar
+
+Para executar o sript e obter o .json final com os lugares organizados da forma explicada, basta digitar no seu terminal dentro do respositorio:
+
+### Windows
+```
+python main.py
+```
+
+### Ubuntu
+```
+python3 main.py
+```
+
+## :card_index_dividers: Classes e Categorias
+### :balance_scale: Assistência Social
 
 - CREAS
 - CRAS
@@ -32,7 +53,7 @@ Cada uma dessas Classes possui Categorias que detêm de locais públicos que se 
 - APADA
 - Casa
 
-## Educação
+### :books: Educação
  
 - Escola
 - Biblioteca
@@ -40,13 +61,13 @@ Cada uma dessas Classes possui Categorias que detêm de locais públicos que se 
 - Creche
 - Centro de Capacitação
 
-## Saúde
+### :ambulance: Saúde
 
 - Hospital
 - UBS
 - SAMU
 
-## Esporte e Lazer
+### :bicyclist: Esporte e Lazer
 
 - Praça
 - Ginásio
@@ -62,7 +83,7 @@ Cada uma dessas Classes possui Categorias que detêm de locais públicos que se 
 - Pista de Skate
 - Pista Olímpica
 
-## Prédios Públicos
+### :classical_building: Prédios Públicos
 
 - SEMEC
 - SEMCOP
@@ -94,19 +115,19 @@ Cada uma dessas Classes possui Categorias que detêm de locais públicos que se 
 - Gerência de Farmacia
 - CIE
 
-## Meio Ambiente
+### :camping: Meio Ambiente
 
 - PEV (Pontos de Entrega Voluntaria)
 - Ponto de Recebimento de Resíduo
 - Estação de Transbordo de Resíduos Sólidos
 - HC (Hortas Comunitárias)
 
-## Saneamento
+### :broom: Saneamento
 
 - Aterro Sanitário
 - Estação Elevatória
 
-## Cultura
+### :rainbow: Cultura
 
 - Museu
 - Casa da Cultura
@@ -114,7 +135,7 @@ Cada uma dessas Classes possui Categorias que detêm de locais públicos que se 
 - Galeria
 - Palacio
 
-## Outros
+### :office: Outros
 
 - Cemitério
 - Fazenda da Paz
